@@ -1,0 +1,23 @@
+{
+  "name": "news_api",
+  "version": "0.1.0",
+  "description": "Fastify POC for news REST API and Token authentication",
+  "main": "run.js",
+  "dependencies": {
+    "fastify": "^3.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "fastify",
+    "rest-api",
+    "token",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Adriano Shimonoe",
+  "license": "ISC"
+}
