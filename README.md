@@ -12,6 +12,9 @@ If you have a OS that sets Python environment as `python3` (like Ubuntu), add a 
 
 `$ cd && echo "alias python=python3" >> .bashrc`
 
+##### If you are trying to run in Ubuntu 20.04 or later, install this package:
+`$ sudo apt install python-is-python3`
+
 Then close and open your terminal again :)
 
 ## How to run a local server (manual configuration)
