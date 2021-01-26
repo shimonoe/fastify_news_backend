@@ -14,14 +14,14 @@ If you have a OS that sets Python environment as `python3` (like Ubuntu), add a 
 
 Then close and open your terminal again :)
 
-## How to run a local server
+## How to run a local server (manual configuration)
 This is a tutorial for test in your local environment
 
 #### 1. Clone repository:
 `$ git clone https://github.com/shimonoe/fastify_news_backend.git && cd fastify_news_backend`
 
 #### 2. Install project packages
-`$ npm i`
+`$ npm cache clean --force && npm i`
 
 #### 3. Create local private keys and certs for HTTPS and JWT authentication
 `$ mkdir certs`
@@ -37,7 +37,7 @@ This is a tutorial for test in your local environment
 ##### This is a authentication method for dummy user `demo`
 `$ curl -k -v --location --request POST 'https://0.0.0.0:8000/api/users/authenticate' --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'username=demo' --data-urlencode 'password=demo'`
 
-## How to run in a Docker container
+## How to run in a Docker container (easy-way to run)
 
 #### 1. Install latest docker-engine
 
