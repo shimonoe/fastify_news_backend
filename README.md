@@ -8,9 +8,9 @@ Fastify POC for news REST API and Token authentication
 *  OpenSSL >= 1.1.1f
 *  curl >= 7.68.0
 
-If you have a OS that sets Python environment as `python3`, add a python alias to `.bashrc` in your home folder:
+If you have a OS that sets Python environment as `python3` (like Ubuntu), add a python alias to `.bashrc` in your home folder:
 
-`$ cd && "alias python=python3" >> .bashrc`
+`$ cd && echo "alias python=python3" >> .bashrc`
 
 Then close and open your terminal again :)
 
